@@ -9,5 +9,8 @@ A Mod that lets you fly around in Modded Lobbies
 Utilla (Only requirement!)
 # My code if you want to use it in your mod
 No need to give credits for my code because yeah i dont mind anyways here is my code:
-
-
+if (ControllerInputPoller.instance.rightControllerPrimaryButton)
+{
+    GorillaLocomotion.Player.Instance.GetComponent<Rigidbody>().velocity = GorillaLocomotion.Player.Instance.headCollider.transform.forward * Time.deltaTime * 15f;
+}
+yaaaa here it is
