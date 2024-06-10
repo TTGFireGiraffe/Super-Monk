@@ -45,7 +45,7 @@ namespace Super_Monk
             {
                 if (ControllerInputPoller.instance.rightControllerPrimaryButton)
                 {
-                    GorillaLocomotion.Player.Instance.GetComponent<Rigidbody>().velocity = GorillaLocomotion.Player.Instance.headCollider.transform.forward * Time.deltaTime * 15f;
+                    GorillaLocomotion.Player.Instance.GetComponent<Rigidbody>().velocity = GorillaLocomotion.Player.Instance.headCollider.transform.forward * Time.deltaTime * 1300f;
                 }
             }
         }
