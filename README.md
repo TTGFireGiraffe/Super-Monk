@@ -14,9 +14,9 @@ No need to give credits for my code because yeah i dont mind anyways here is my 
 
 if (ControllerInputPoller.instance.rightControllerPrimaryButton)
 {
-    GorillaLocomotion.Player.Instance.GetComponent<Rigidbody>().velocity = GorillaLocomotion.Player.Instance.headCollider.transform.forward * Time.deltaTime * 15f;
+    GorillaLocomotion.Player.Instance.GetComponent<Rigidbody>().velocity = GorillaLocomotion.Player.Instance.headCollider.transform.forward * Time.deltaTime * 1300f;
 }
 
 
 
-yaaaa here it is
+yaaaa here it is also dont put this code into a mod menu or else ima hunt you down
